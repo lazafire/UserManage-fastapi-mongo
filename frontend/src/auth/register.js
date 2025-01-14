@@ -26,7 +26,7 @@ export const Register = () => {
       // Callbacks can be added here
       if (data) {
         await auth.login(email, password);
-        alert('Register Successful!');
+        alert('User Register Successful!');
         history.push('/');
       }
     }
