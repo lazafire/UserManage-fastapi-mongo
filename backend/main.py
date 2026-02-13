@@ -146,7 +146,7 @@ app.include_router(
 # Below function can be used to init any backend process like sending out a
 # successful registeration email
 def on_after_register(user: UserDB, request: Request):
-    print("User {user.id} has registered.")
+    print("User {user.id} has registered successfully!.")
 
 app.include_router(
     # fastapi_users.get_register_router(),
